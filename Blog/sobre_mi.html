@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            width: 100%;
+        }
+        nav {
+            background: #555;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 250px;
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .sidebar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            flex: 1;
+            padding: 1rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        article {
+            margin-bottom: 2rem;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Mi Blog</h1>
+    </header>
+    <nav>
+        <a href="blog.html">Inicio</a>
+    </nav>
+    <div class="content">
+        <div class="sidebar">
+            <img src="io.jpg" alt="Mi Foto">
+            <a href="https://github.com/daltonmeridio" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/cyber-security-og/" target="_blank">LinkedIn</a>
+        </div>
+        <div class="container">
+            <article>
+                <h2>Sobre Mí</h2>
+                <p>¡Hola! Soy Dalton, un apasionado de la ciberseguridad y el hacking ético. Disfruto aprendiendo y compartiendo conocimientos sobre seguridad informática, pentesting y nuevas tecnologías. En mi tiempo libre, me encanta explorar nuevas herramientas y participar en CTFs.</p>
+                <p>Espero que lo que te encuentres aqui te sea de utilidad para tu crecimiento.</p>
+                <p>Happy Hacking!</p>
+
+            </article>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Mi Blog. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
